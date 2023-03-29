@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/back-to-black-demo");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.cdnfonts.com/css/friz-quadrata-std");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shojumaru&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden;
+ 
+}
+.container {
+  width: 100%;
+}
+ul li {
+  list-style-type: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+  background-repeat: no-repeat;
+}
+.fa {
+  font-size: 3em !important;
+}
+/* .hrr {
+  height: 7px;
+  background-color: #fff;
+  border: none;
+  border-top: 3px;
+  position: relative;
+  size: "300";
+} */
+.great {
+  font-family: "Great Vibes";
+  font-size: 41px;
+  margin-top: -65px;
+}
+.d {
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.Damon {
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 80px;
+}
+.tracklisting {
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 70px;
+  color: #fff;
+}
+.Track {
+  color: #fff;
+}
+.row p {
+  font-family: "Friz Quadrata Std", sans-serif;
+  justify-content: space-between;
+}
+nav {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  /* border-bottom: 5px solid #6f6f6f; */
+}
+nav img {
+  justify-content: center;
+
+  height: 350px;
+}
+.image {
+  justify-content: space-between;
+}
+nav h1 {
+  color: #717171;
+  font-family: "Friz Quadrata Std", sans-serif;
+  font-size: 30px;
+}
+nav .onglets {
+  margin-top: 3px;
+  margin-left: 300px;
+  font-family: "Friz Quadrata Std", sans-serif;
+}
+nav .onglets a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 10px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  color: #fff;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Friz Quadrata Std", sans-serif;
+  justify-content: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 700px;
+  color: #fff;
+  background: url(./images/header.png);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+.main {
+  margin-top: -243px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./images/2D.png);
+  background-repeat: no-repeat;
+}
+.paragraphe {
+  color: #fff;
+  margin-top: 60vh;
+  border-bottom: 1px solid white;
+}
+.fille {
+  background: url(./images/filtre.png);
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  font-family: "Friz Quadrata Std", sans-serif;
+  margin-bottom: 130;
+}
+h1 {
+  font-family: "Shojumaru", cursive;
+  font-size: x-large;
+  color: #fff;
+}
+
+.mec {
+  background: url(./images/mec.png);
+  display: flex;
+  flex-direction: column;
+  font-family: "Friz Quadrata Std", sans-serif;
+  margin-top: -145;
+}
+.murdoc {
+  background: url(./images/murdoc.png);
+  font-family: "Friz Quadrata Std", sans-serif;
+}
+.deuxmecs {
+  background: url(./images/3566.png);
+}
+.mecs {
+  font-family: "Friz Quadrata Std", sans-serif;
+  margin-top: -200;
+  font-size: larger;
+  margin-right: 20;
+}
+.icon {
+  font-size: 160px;
+  color: #fff;
+  justify-content: space-between;
+}
+.fa {
+  font-size: 3em !important;
+}
+/* .main .content .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main .content .card .left {
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+}
+.main .content .card .right img {
+  height: 300px;
+  width: 400px;
+  margin-top: 5px;
+} */
+
+footer {
+  margin-top: 40px;
+  border-top: 5px solid #6f6f6f;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 30px 100px;
+}
+footer h1 {
+  border-bottom: 1px solid white;
+  width: 20%;
+  padding-bottom: 5px;
+}
+footer .services {
+  margin-top: -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .services .service {
+  margin-right: 30px;
+}
+footer .services .service p {
+  max-width: 300px;
+}
+footer #contact {
+  color: rgb(181, 181, 181);
+}
+p.bordure_verticale {
+  height: 200px;
+  padding-right: 60px;
+  border-right: 2px solid white;
+}
+
+@media screen and (max-width: 680px) {
+  nav .onglets {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .main .card {
+    margin: 10px;
+  }
+  .main .content .card .right img {
+    height: 200px;
+    width: 100%;
+    margin-top: -0px;
+  }
+  .main .content .card {
+    display: block;
+  }
+  footer {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  nav .onglets {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .main .card {
+    margin: 10px;
+  }
+  .main .content .card .right img {
+    height: 200px;
+    width: 100%;
+    margin-top: -0px;
+  }
+  .main .content .card {
+    display: block;
+  }
+  footer {
+    padding: 30px;
+  }
+}
+
+/* un viewport d’une largeur comprise entre 576px et 960px */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+  /* body{background-color:rgba(245, 249, 255, 1);}  */
+}
+
+/* un viewport d’une largeur inférieure à 576px. */
+@media screen and (max-width: 960px) {
+}
+@media screen and (min-width: 577px) {
+  /* .paragraphe-sucess {
+        width: 90%;
+        padding: 5px;
+        margin-top: 0px; */
+}
